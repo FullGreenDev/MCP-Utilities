@@ -57,7 +57,6 @@ public class SessionChanger {
 	}
 
 	//Login offline mode
-	//Just like MCP does
 	public void setUserOffline(String username) {
 		this.auth.logOut();
 		Session session = new Session(username, username, "0", "legacy");
